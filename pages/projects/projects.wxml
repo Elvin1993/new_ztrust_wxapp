@@ -1,0 +1,3 @@
+<scroll-view wx:for="{{projects}}" wx:for-item="project" class="container">
+  <view>{{project.name}}</view>
+</scroll-view>
